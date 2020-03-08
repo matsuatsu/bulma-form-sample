@@ -21,9 +21,9 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
-          <nuxt-link class="navbar-item" to="/clustering">Analyzer</nuxt-link>
-          <nuxt-link class="navbar-item" to="/">Help</nuxt-link>
+          <a class="navbar-item">Home</a>
+          <a class="navbar-item">Analyzer</a>
+          <a class="navbar-item">Visualizer</a>
         </div>
 
         <div class="navbar-end">

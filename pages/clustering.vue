@@ -1,26 +1,8 @@
 <template>
-  <div id="home">
-    <div class="section">
-      <table class="table is-fullwidth">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>ファイル名</th>
-            <th>実行日時</th>
-            <th>詳細</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="columns is-full">
+    <SideMenu />
+    <div class="column is-10 is-fullheight">
+      <Clustering />
     </div>
   </div>
 </template>
@@ -35,6 +17,11 @@ export default {
     Logo,
     SideMenu,
     Clustering
+  },
+  data() {
+    return {
+      n_cluster: 1
+    };
   }
 };
 </script>
